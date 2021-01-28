@@ -9,7 +9,7 @@
   Chromatic's Intro to Storybook React template
 </h1>
 
-This template ships with the main Vue and Storybook configuration files you'll need to get up and running fast.
+This template ships with the main React and Storybook configuration files you'll need to get up and running fast.
 
 ## 🚅  Quick start
 
@@ -82,6 +82,6 @@ If you encounter an issue with the template, we encourage you to open an issue i
 
 ## Learning Storybook
 
-1. Read our introductory tutorial at [Learn Storybook](https://www.learnstorybook.com/intro-to-storybook/vue/en/get-started/).
+1. Read our introductory tutorial at [Learn Storybook](https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/).
 2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://www.learnstorybook.com/design-systems-for-developers/) tutorial.
 2. See our official documentation at [Storybook](https://storybook.js.org/).
