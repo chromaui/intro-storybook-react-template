@@ -2799,7 +2799,7 @@
     prop-types "^15.7.2"
     regenerator-runtime "^0.13.7"
 
-"@storybook/addons@6.2.8":
+"@storybook/addons@6.2.8", "@storybook/addons@^6.1.21":
   version "6.2.8"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-6.2.8.tgz#31d9bbd2e8b212490065a25e587621dab83ae392"
   integrity sha512-zbavtYi66HAtgAROw5h4mR3mD9239ocCaYiasRanM+qyprguIvADPMGzgOA7COVfNI9MiIkxSA+E9oZ1y5PKfQ==
@@ -2938,7 +2938,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/client-api@6.2.8":
+"@storybook/client-api@6.2.8", "@storybook/client-api@^6.1.21":
   version "6.2.8"
   resolved "https://registry.yarnpkg.com/@storybook/client-api/-/client-api-6.2.8.tgz#69b02085fcc4f00798d04ac03e6af514d6c87975"
   integrity sha512-CZL+ANDUZ2uAdIQ/fe+qLLk7Cba7iT04mwiFIgL4zsG/51RQ8MXksh75RkW1VCLMRiJEuBt3P+Hqe0xs0yLoUw==
@@ -3188,7 +3188,7 @@
     react-docgen-typescript-plugin "^0.6.2"
     semver "^7.3.2"
 
-"@storybook/react@^6.2.8":
+"@storybook/react@^6.1.21", "@storybook/react@^6.2.8":
   version "6.2.8"
   resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.2.8.tgz#7b3fb79f30a696856e8bb98b2dc6a2b3a48cbdba"
   integrity sha512-n8nQmuclm+KvwOKWpZfTFeeUWISZuEUcHQc6MGoi0fzXDnJDPSk4KI6kvIMlr1kSDh41+iZfbbBTil+XWORaRA==
@@ -3256,6 +3256,15 @@
     lodash "^4.17.20"
     prettier "~2.2.1"
     regenerator-runtime "^0.13.7"
+
+"@storybook/testing-react@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@storybook/testing-react/-/testing-react-0.0.10.tgz#e1ed36444f658b2ab467aa6f6cdf6ea6d1f32e8e"
+  integrity sha512-8R5ca411vY2JpnxYvcbvAX8WjcfFsi6u98JPweUsIBV2lAQlm3GZxL7AlhIILEhp/CdYQervEMmzVGcN0kYvvQ==
+  dependencies:
+    "@storybook/addons" "^6.1.21"
+    "@storybook/client-api" "^6.1.21"
+    "@storybook/react" "^6.1.21"
 
 "@storybook/theming@6.2.8":
   version "6.2.8"
