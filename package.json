@@ -27,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "init-msw": "msw init public/"
   },
   "eslintConfig": {
     "extends": [
@@ -58,14 +59,16 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^6.4.0",
-    "@storybook/addon-essentials": "^6.4.0",
-    "@storybook/addon-interactions": "^6.4.0",
-    "@storybook/addon-links": "^6.4.0",
-    "@storybook/node-logger": "^6.4.0",
+    "@storybook/addon-actions": "^6.4.18",
+    "@storybook/addon-essentials": "^6.4.18",
+    "@storybook/addon-interactions": "^6.4.18",
+    "@storybook/addon-links": "^6.4.18",
+    "@storybook/node-logger": "^6.4.18",
     "@storybook/preset-create-react-app": "^3.1.7",
-    "@storybook/react": "^6.4.0",
-    "@storybook/testing-library": "^0.0.7",
-    "@storybook/testing-react": "^1.0.0"
+    "@storybook/react": "^6.4.18",
+    "@storybook/testing-library": "^0.0.9",
+    "@storybook/testing-react": "^1.2.3",
+    "msw": "^0.36.8",
+    "msw-storybook-addon": "^1.6.0"
   }
 }
