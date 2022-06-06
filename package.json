@@ -13,13 +13,13 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,6 +28,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "test-storybook": "test-storybook",
     "init-msw": "msw init public/"
   },
   "eslintConfig": {
@@ -59,16 +60,23 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^6.4.18",
-    "@storybook/addon-essentials": "^6.4.18",
-    "@storybook/addon-interactions": "^6.4.18",
-    "@storybook/addon-links": "^6.4.18",
-    "@storybook/node-logger": "^6.4.18",
-    "@storybook/preset-create-react-app": "^3.1.7",
-    "@storybook/react": "^6.4.18",
-    "@storybook/testing-library": "^0.0.9",
-    "@storybook/testing-react": "^1.2.3",
-    "msw": "^0.36.8",
-    "msw-storybook-addon": "^1.6.0"
+    "@storybook/addon-a11y": "^6.5.7",
+    "@storybook/addon-actions": "^6.5.7",
+    "@storybook/addon-essentials": "^6.5.7",
+    "@storybook/addon-interactions": "^6.5.7",
+    "@storybook/addon-links": "^6.5.7",
+    "@storybook/builder-webpack5": "^6.5.7",
+    "@storybook/manager-webpack5": "^6.5.7",
+    "@storybook/node-logger": "^6.5.7",
+    "@storybook/preset-create-react-app": "^4.1.2",
+    "@storybook/react": "^6.5.7",
+    "@storybook/test-runner": "^0.1.1",
+    "@storybook/testing-library": "^0.0.11",
+    "axe-playwright": "^1.1.11",
+    "babel-plugin-named-exports-order": "^0.0.2",
+    "msw": "^0.42.0",
+    "msw-storybook-addon": "^1.6.3",
+    "prop-types": "^15.8.1",
+    "webpack": "^5.73.0"
   }
 }
