@@ -51,9 +51,11 @@ A quick look at the top-level files and directories included with this template.
     ├── public
     ├── src
     ├── .gitignore
+    ├── .index.html
     ├── LICENSE
     ├── package.json
     ├── yarn.lock
+    ├── vite.config.js
     └── README.md
 
 1.  **`.storybook`**: This directory contains Storybook's [configuration](https://storybook.js.org/docs/react/configure/overview) files.
@@ -66,13 +68,17 @@ A quick look at the top-level files and directories included with this template.
 
 5.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
 
-6.  **`LICENSE`**: The template is licensed under the MIT licence.
+6.  **`.index.html`**: This is the HTML page that is served when generating a development or production build.
 
-7.  **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
+7.  **`LICENSE`**: The template is licensed under the MIT licence.
 
-8.  **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
+8.  **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
 
-9.  **`README.md`**: A text file containing useful reference information about the project.
+9.  **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
+
+10. **`vite.config.js`**: This is the configuration file for [Vite](https://vitejs.dev/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
+
+11. **`README.md`**: A text file containing useful reference information about the project.
 
 ## Contribute
 
