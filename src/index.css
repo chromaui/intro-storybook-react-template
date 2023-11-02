@@ -33,9 +33,9 @@ label {
   line-height: 1;
   font-family: inherit;
   vertical-align: baseline;
-  *vertical-align: middle;
+  vertical-align: middle;
   line-height: normal;
-  *overflow: visible;
+  overflow: visible;
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
