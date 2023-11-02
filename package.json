@@ -42,5 +42,8 @@
     "prop-types": "^15.8.1",
     "storybook": "^7.5.2",
     "vite": "^4.2.0"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
   }
 }
