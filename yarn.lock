@@ -3539,7 +3539,6 @@ __metadata:
     globals: "npm:^15.9.0"
     msw: "npm:^2.3.0"
     msw-storybook-addon: "npm:^2.0.3"
-    prop-types: "npm:^15.8.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     storybook: "npm:^8.5.6"
