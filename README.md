@@ -61,7 +61,8 @@ A quick look at the top-level files and directories included with this template.
     ├── tsconfig.json
     ├── tsconfig.node.json
     ├── yarn.lock
-    ├── vite.config.js
+    ├── vite.config.ts
+    ├── vitest.shims.d.ts
     └── README.md
 
 1.  **`.storybook`**: This directory contains Storybook's [configuration](https://storybook.js.org/docs/configure) files.
@@ -94,11 +95,13 @@ A quick look at the top-level files and directories included with this template.
 
 15. **`tsconfig.node.json`**: This file contains the TypeScript compiler options required to manage the Node.js environment in the project configuration files. Used to help distinguish between configurations for different parts of the project.
 
-16. **`vite.config.js`**: This is the configuration file for [Vite](https://vitejs.dev/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
+16. **`vite.config.ts`**: This is the configuration file for [Vite](https://vitejs.dev/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
-17. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
+17. **`vitest.shims.d.ts`**: This file contains TypeScript type definitions and shims that ensure proper type support for Vitest when integrated with Storybook's test addon. It provides necessary global types and resolves compatibility issues between the testing frameworks.
 
-18. **`README.md`**: A text file containing useful reference information about the project.
+18. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
+
+19. **`README.md`**: A text file containing useful reference information about the project.
 
 ## Contribute
 
@@ -107,5 +110,4 @@ If you encounter an issue with the template, we encourage you to open an issue i
 ## Learning Storybook
 
 1. Read our introductory tutorial at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/).
-2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
-3. See our official documentation at [Storybook](https://storybook.js.org/).
+2. See our official documentation at [Storybook](https://storybook.js.org/).

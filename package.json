@@ -26,29 +26,30 @@
     "init-msw": "msw init public/"
   },
   "devDependencies": {
-    "@eslint/js": "^9.9.0",
-    "@storybook/addon-essentials": "^8.5.6",
-    "@storybook/addon-interactions": "^8.5.6",
-    "@storybook/addon-links": "^8.5.6",
-    "@storybook/blocks": "^8.5.6",
-    "@storybook/react": "^8.5.6",
-    "@storybook/react-vite": "^8.5.6",
-    "@storybook/test": "^8.5.6",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "eslint": "^9.9.0",
+    "@eslint/js": "^9.30.1",
+    "@storybook/addon-docs": "^9.0.17",
+    "@storybook/addon-links": "^9.0.17",
+    "@storybook/addon-vitest": "^9.0.17",
+    "@storybook/react-vite": "^9.0.17",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "@vitest/browser": "^3.2.4",
+    "@vitest/coverage-v8": "^3.2.4",
+    "eslint": "^9.30.1",
     "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.9",
-    "eslint-plugin-storybook": "^0.11.2",
-    "globals": "^15.9.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "eslint-plugin-storybook": "^9.0.17",
+    "globals": "^16.3.0",
     "msw": "^2.3.0",
-    "msw-storybook-addon": "^2.0.3",
-    "storybook": "^8.5.6",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
+    "msw-storybook-addon": "^2.0.5",
+    "playwright": "^1.54.1",
+    "storybook": "^9.0.17",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "vite": "^7.0.4",
+    "vitest": "^3.2.4"
   },
   "resolutions": {
     "jackspeak": "2.1.1"
@@ -58,5 +59,5 @@
       "plugin:storybook/recommended"
     ]
   },
-  "packageManager": "yarn@4.5.0"
+  "packageManager": "yarn@4.9.2"
 }
