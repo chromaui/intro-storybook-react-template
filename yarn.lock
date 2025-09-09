@@ -1011,21 +1011,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^9.1.5":
-  version: 9.1.5
-  resolution: "@storybook/addon-links@npm:9.1.5"
-  dependencies:
-    "@storybook/global": "npm:^5.0.0"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
-    storybook: ^9.1.5
-  peerDependenciesMeta:
-    react:
-      optional: true
-  checksum: 10c0/ba3e41624ecfdff2e175f733497f6e41ed8ea66847be35bd6fa7d80c79c5341ed6e6c91714df5f8bf4051cd80b11efc6839a9113b62eefcc96db1e63bcbd2fe8
-  languageName: node
-  linkType: hard
-
 "@storybook/addon-vitest@npm:^9.1.5":
   version: 9.1.5
   resolution: "@storybook/addon-vitest@npm:9.1.5"
@@ -3276,7 +3261,6 @@ __metadata:
     "@chromatic-com/storybook": "npm:4.0.1"
     "@eslint/js": "npm:^9.30.1"
     "@storybook/addon-docs": "npm:^9.1.5"
-    "@storybook/addon-links": "npm:^9.1.5"
     "@storybook/addon-vitest": "npm:^9.1.5"
     "@storybook/react-vite": "npm:^9.1.5"
     "@types/react": "npm:^19.1.8"
