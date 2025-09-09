@@ -2,13 +2,13 @@
   display: inline-block;
   cursor: pointer;
   border: 0;
-  border-radius: 3em;
+  border-radius: 4em;
   font-weight: 700;
   line-height: 1;
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .storybook-button--primary {
-  background-color: #555ab9;
+  background-color: blue;
   color: white;
 }
 .storybook-button--secondary {

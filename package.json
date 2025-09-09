@@ -23,7 +23,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "init-msw": "msw init public/"
+    "init-msw": "msw init public/",
+    "chromatic": "npx chromatic --project-token=chpt_cd4286c28a9a672"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -37,6 +38,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "chromatic": "^13.1.4",
     "eslint": "^9.9.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
